@@ -35,7 +35,8 @@ public class sever {
 		driver.setAddress((byte) 0x10);
 
 		medium = new TcpServer(socket, driver);
-
+	}
+}
 
 
 
